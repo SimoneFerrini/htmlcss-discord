@@ -68,6 +68,11 @@ h2{
     color: white;
     text-decoration: none;
 }
+
+#link a:hover{
+    color: purple;
+}
+
  #login {
     padding:40px;
  }
@@ -78,6 +83,10 @@ h2{
     padding:10px;
     font-weight: bold;
     margin: 15px;
+ }
+
+ button:hover{
+    cursor: pointer;
  }
 
  #intro{
@@ -251,6 +260,10 @@ footer h2{
     text-decoration: none;
 }
 
+.cell a:hover{
+    color: purple;
+}
+
 #footer-list{
     list-style-type: none;
 
@@ -303,6 +316,7 @@ footer hr{
 .blue-btn{
     background-color:mediumslateblue;
     color:white;
+    margin-bottom: 15px;
 }
 
 main section:nth-of-type(even){
@@ -344,3 +358,9 @@ main section:nth-of-type(even){
     transform: rotate(180deg);
 
 }
+
+.hover:hover{
+    cursor: pointer;
+}
+
+
