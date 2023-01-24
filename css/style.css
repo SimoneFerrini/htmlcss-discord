@@ -4,6 +4,10 @@
     margin-right: auto;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 header{
     background-image: url("../img/jumbo.png");
     background-size: cover;
@@ -22,10 +26,7 @@ footer{
     flex-direction: row;
     justify-content: space-between;
 
-    width: 100%;
-    height: 80px;
-    
-    background-color: green;
+
 }
 
 
@@ -34,9 +35,9 @@ footer{
 }
 
 #logo {
-   width: 100px;
-   height: 80px;
-   background-color: darkgreen;
+   
+   
+   padding:30px;
 }
 
 #link{
@@ -52,20 +53,25 @@ footer{
  }
 
  #link li{
-    width: 60px;
-    height: 35px;
-
-    background-color: darkgreen;
+   
     text-align: center;
     padding:7px;
     /*test*/
  }
 
+ #link a{
+    color: white;
+    text-decoration: none;
+}
  #login {
-    width: 100px;
-    height: 80;
-    background-color: darkgreen;
-    /*test*/
+    padding:40px;
+ }
+
+ button{
+    border-radius: 20px;
+    border: none;
+    padding:10px;
+    font-weight: bold;
  }
 
  #intro{
@@ -73,7 +79,6 @@ footer{
     height: 350px;
     text-align: center;
     padding:50px;
-    
     
 
  }
@@ -84,33 +89,26 @@ footer{
     align-items: center;
     gap:10px;
     
-    background-color: yellow;
+
     padding:50px;
  }
 
  #intro h1{
    
-    width: 400px;
-    height: 30px;
+    color: white;
     text-align: center;
-    background-color: orange;
-     /*test*/
  }
 
  #intro p{
-    width: 450px;
-    height: 90px;
+    color: white;
     text-align: center;
-    background-color: orange;
-     /*test*/
  }
 
  #intro button{
-    width: 50px;
-    height: 30px;
+
     text-align: center;
-    background-color: orange;
-     /*test*/
+    margin:10px;
+   
  }
 
  main section{
@@ -250,4 +248,20 @@ footer hr{
 
 .li-col{
     background-color: blueviolet;
+}
+
+.white-btn{
+    background-color: white;
+    color:black;
+
+}
+
+.black-btn{
+   background-color: black;
+   color: white;
+}
+
+.blue-btn{
+    background-color:mediumslateblue;
+    color:white;
 }
