@@ -180,7 +180,7 @@ section{
 }
 
 #sez4 img{
-    width: 700px;
+    width: 900px;
     height: 230px;
     
     
@@ -227,7 +227,7 @@ footer p{
 
 footer hr{
     border-color: dodgerblue;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .footer-bottom-flex{
@@ -235,24 +235,12 @@ footer hr{
     flex-direction: row;
     justify-content: space-between;
 
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding:5px 80px 20px 80px ;
 
-    background-color: orange;
+   
 }
 
-.footer-bottom-flex img{
-    width: 60px;
-    height: 50px;
-    background-color: white;
-    
-}
 
-.footer-bottom-flex button{
-    width: 60px;
-    height: 50px;
-    background-color: white;   
-}
 
 .li-col{
     background-color: blueviolet;
