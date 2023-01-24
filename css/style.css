@@ -198,10 +198,27 @@ footer{
    height: 600px;
 }
 
-footer p{
+#left-footer-top{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+
     width: 15%;
     height:280px;
-    background-color: brown;
+    
+}
+
+footer h2{
+    color: mediumslateblue;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#left-footer-top img{
+    width: 25px;
+    height: 20px;
+    margin: 5px;
+    vertical-align: bottom;
 }
 
 #footer-link{
@@ -295,4 +312,8 @@ main section:nth-of-type(even){
 .list-title{
     color: mediumslateblue;
 
+}
+
+#span-footer-white{
+    color: white;
 }
