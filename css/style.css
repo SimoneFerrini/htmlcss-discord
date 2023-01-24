@@ -330,3 +330,17 @@ main section:nth-of-type(even){
     flex-direction: row;
     gap: 3px;
 }
+
+.wave{
+    margin:-10px;
+    padding: 0px;
+    filter: invert(83%);
+}
+
+.wave-rotate{
+    margin:-10px;
+    padding: 0px;
+    filter: invert(83%);
+    transform: rotate(180deg);
+
+}
