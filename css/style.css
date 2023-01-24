@@ -4,6 +4,7 @@
     margin-right: auto;
 }
 
+
 body{
     font-family: sans-serif;
 }
@@ -19,6 +20,10 @@ footer{
     background-color: black;
     width: 100%;
     height: 500px;
+}
+
+h2{
+    margin-bottom: 20px;
 }
 
 #nav-interno{
@@ -72,6 +77,7 @@ footer{
     border: none;
     padding:10px;
     font-weight: bold;
+    margin: 15px;
  }
 
  #intro{
@@ -114,7 +120,7 @@ footer{
  main section{
     width: 100%;
     height: 430px;
-    border:1px solid black;
+   
 
  }
 
@@ -127,29 +133,37 @@ footer{
     height: 430px;
     margin-left: auto;
     margin-right: auto;
-    background-color: aquamarine;
+
  }
 
 .sezioni img{
-    width: 300px;
-    height: 300px;
-    background-color: darkgrey;
+    width: 500px;
+    height: 500px;
+    
 }
 
-.sezioni p{
-    width: 300px;
+.sezioni div{
+    width: 250px;
     height: 300px;
-    background-color: lightgrey;
+   
+}
+
+section{
+    padding: 15px;
 }
 
 #sez4{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
     width: 800px;
-    height: 600px;
-    background-color: aquamarine;
+    height: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 100px 20px;
+    
 
 }
 
@@ -158,27 +172,21 @@ footer{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 600px;
 }
 
 #sez4 p{
-    width:600px;
-    height: 90px;
-    background-color: lightgrey;
+   text-align: center;
+
 }
 
 #sez4 img{
-    width: 600px;
-    height: 200px;
-    background-color: darkgrey;
+    width: 700px;
+    height: 230px;
+    
+    
 }
 
-#sez4 button{
-    width: 70px;
-    height: 30px;
-    background-color: lightgrey;
 
-}
 
 footer p{
     width: 15%;
@@ -265,3 +273,8 @@ footer hr{
     background-color:mediumslateblue;
     color:white;
 }
+
+main section:nth-of-type(even){
+    background-color: lightgrey;
+}
+
