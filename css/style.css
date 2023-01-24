@@ -317,3 +317,16 @@ main section:nth-of-type(even){
 #span-footer-white{
     color: white;
 }
+
+.famous-logo{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+        
+}
+
+.flogo-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
